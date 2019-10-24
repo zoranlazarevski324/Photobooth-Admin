@@ -1,0 +1,27 @@
+.loading-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 50px;
+
+    img {
+        width: 50px;
+        height: 50px;
+        animation: loading-spin infinite 0.5s linear;
+    }
+
+    span {
+        color: black;
+        font-size: 18px;
+    }
+
+    @keyframes loading-spin {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+    }
+}

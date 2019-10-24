@@ -1,0 +1,270 @@
+
+.layout-logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100px; 
+    height: 100px;
+}
+
+.app-body {
+    margin-top: 0 !important;
+}
+
+.user-info {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+
+    img {
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        border: 1px solid gray;
+        margin-right: 10px;
+    }
+
+    .empty-logo {
+        width: 50px;
+        height: 50px;
+        background: lightgray;
+        border-radius: 25px;
+        border: 1px solid gray;
+        margin-right: 10px;
+    }
+
+    span {
+        font-size: 16px;
+        color: white;
+        font-weight: bold;
+    }
+}
+
+.signout-frame {
+    padding: 10px 20px;
+    cursor: pointer;
+
+    &:hover {
+        background: #20a8d8;
+    }
+
+    &:hover span {
+        color: white !important
+    }
+
+    &:hover span i{
+        color: white !important
+    }
+
+    span {
+        color: white;
+        font-size: 1rem;
+
+        i {
+            color: #73818f;
+        }
+    }
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background: #555555;
+    margin-bottom: 20px;
+}
+
+.client-container {
+    .pagesize {
+        display: flex;
+
+        select {
+            width: 100px !important;
+        }
+
+        span {
+            padding-top: 5px;
+        }
+    }
+
+    .page-item.active {
+        
+        .pagination-btn{
+            z-index: 1;
+            color: #fff;
+            background-color: #20a8d8;
+            border-color: #20a8d8;
+        }
+    }
+
+    .pagination-btn {
+        position: relative;
+        display: block;
+        padding: 0.5rem 0.75rem;
+        margin-left: -1px;
+        line-height: 1.25;
+        color: #20a8d8;
+        background-color: #fff;
+        border: 1px solid #c8ced3;
+    }
+
+    .title {
+        width: 100%;
+        border: 2px dashed gray;
+        border-width: 0 0 2px 0;
+        padding: 5px 0;
+        margin-top: 10px;
+        margin-bottom: 20px;
+
+        span {
+            color: black;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+}
+
+th {
+    cursor: pointer;
+}
+
+td {
+    vertical-align: middle !important;
+}
+
+i.control {
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+
+}
+
+.company-logo {
+    .empty-logo {
+        width: 100px;
+        height: 100px;
+        border: 1px solid gray;
+        border-radius: 5px;
+    }
+
+    img {
+        width: 100px;
+        height: 100px;
+        border: 1px solid gray;
+        border-radius: 5px;
+    }
+}
+
+.create-user-modal {
+
+    .btn_edit {
+        margin-top: 10px;
+
+        .logo-file {
+            display: none;
+        }
+    }
+}
+
+.t-header {
+    display: flex;
+
+    .th-title {
+        width: 100%;
+    }
+
+    .sort-direction {
+        width: 21px;
+
+        .up-down {
+            line-height: 0;
+            padding-top: 3px;
+
+            i {
+                font-size: 15px;
+                color: lightgray;
+
+                &.active {
+                    color: blue
+                }
+            }
+        }
+    }
+}
+
+.withLabel {
+    display: flex;
+    justify-items: center;
+
+    label.control-label {
+        padding-top: 5px !important;
+        text-align: right !important;
+    }
+
+    .form-check {
+        padding-top: 5px;
+    }
+
+    &.no-margin {
+        margin: 0 !important;
+    }
+}
+
+.subtitle {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.event-logo {
+    .empty-logo {
+        width: 100%;
+        height: 200px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+
+    img {
+        width: 100%;
+        height: 200px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+
+    input {
+        display: none;
+    }
+}
+
+.image-selector {
+    position: relative;
+    width: 100%;
+
+    img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .edit {
+        position: absolute;
+        right: 15px;
+        bottom: 10px;
+
+        i {
+            color: blue;
+            font-size: 24px;
+        }
+
+        input {
+            display: none;
+        }
+    }
+}
+
+.clientid {
+    width: 200px;
+}
+
+.gap {
+    width: 40px;
+}

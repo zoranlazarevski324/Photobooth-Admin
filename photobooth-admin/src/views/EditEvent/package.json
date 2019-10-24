@@ -1,0 +1,7 @@
+{
+    "name": "EditEvent",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./EditEvent.js"
+  }
+  
